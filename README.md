@@ -3,6 +3,7 @@
 面向阿拉尔及南疆棉田的水盐巡查记录演示项目，适用于第十一届华为 ICT 大赛中国创新赛赛题 1。
 
 - 在线 Demo：https://green-cotton-intel.sharpisle15.chatgpt.site
+- 代码仓库：https://github.com/ZZDD-1103/bookish-umbrella
 - 当前版本：静态交互原型
 - 开源许可证：MIT
 

@@ -104,6 +104,7 @@
           </ul></section>
           <section class="card"><h3>华为云接入计划</h3><div class="status-line"><b>CodeArts</b><span>需求拆解、代码生成、测试、仓库与流水线</span></div><div class="status-line"><b>RDS</b><span>保存用户、地块、巡查记录和方案</span></div><div class="status-line"><b>Redis</b><span>管理会话、热点数据和异步任务状态</span></div><div class="status-line"><b>对象存储</b><span>保存田间照片和生成的报告</span></div></section>
         </div>
+        <section class="card" style="margin-top:16px"><h3>公开材料</h3><ul class="plain-list"><li><a href="https://github.com/ZZDD-1103/bookish-umbrella" target="_blank" rel="noreferrer">GitHub 代码仓库</a></li><li><a href="source.zip" download>下载当前版本源码</a></li><li>仓库内含架构说明、部署说明与 20 组测试用例</li></ul></section>
         <section class="card" style="margin-top:16px"><h3>答辩时可以展示的开发证据</h3><ul class="plain-list"><li>CodeArts 中的需求任务、提交记录和问题修复过程</li><li>RDS 数据表与 Redis 键设计截图</li><li>部署流水线运行记录和公开 Demo 地址</li><li>20 组测试案例及人工复核结果</li></ul><p class="note">页面中的阈值和数据仅用于演示，不代表农艺处方。生产使用需由农技人员校准。</p></section>
       </div>`);
 
