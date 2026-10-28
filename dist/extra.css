@@ -1,0 +1,35 @@
+/* 绿洲智探增强页面：保留田间台账风格，减少展示型装饰。 */
+.top-actions .outline { text-decoration: none; display: inline-flex; align-items: center; }
+.record-table-wrap { overflow-x: auto; border: 1px solid var(--line); background: #fff; }
+.record-table { width: 100%; border-collapse: collapse; min-width: 760px; font-size: 13px; }
+.record-table th, .record-table td { padding: 12px 13px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.record-table th { background: #eef1ed; color: #435048; font-weight: 700; }
+.record-table tr:last-child td { border-bottom: 0; }
+.record-table .empty { text-align: center; color: var(--muted); padding: 32px; }
+.text-btn { border: 0; background: transparent; color: #8b3d34; padding: 3px 0; }
+.note { margin-top: 12px; color: var(--muted); font-size: 12px; }
+.photo-preview { display: none; margin-top: 12px; border: 1px solid var(--line); background: #f8faf7; padding: 10px; }
+.photo-preview.show { display: flex; align-items: center; gap: 12px; }
+.photo-preview img { width: 84px; height: 64px; object-fit: cover; border: 1px solid var(--line); }
+.photo-preview p { margin: 0; font-size: 13px; color: var(--muted); }
+.project-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.plain-list { margin: 10px 0 0; padding-left: 20px; color: #45554d; font-size: 14px; }
+.plain-list li { margin: 6px 0; }
+.status-line { display: flex; gap: 10px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.status-line:last-child { border-bottom: 0; }
+.status-line b { min-width: 105px; font-size: 13px; }
+.status-line span { color: var(--muted); font-size: 13px; }
+.result-summary { padding: 12px 14px; background: #f4f7f3; border-left: 3px solid #597a66; margin-top: 12px; font-size: 13px; }
+.secondary-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.report-data { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); margin: 14px 0; }
+.report-data div { padding: 10px 12px; border-right: 1px solid var(--line); }
+.report-data div:last-child { border-right: 0; }
+.report-data small { display: block; color: var(--muted); }
+.report-data b { font-size: 16px; }
+@media (max-width: 760px) {
+  .project-grid { grid-template-columns: 1fr; }
+  .report-data { grid-template-columns: 1fr; }
+  .report-data div { border-right: 0; border-bottom: 1px solid var(--line); }
+  .report-data div:last-child { border-bottom: 0; }
+  .top-actions .status { display: none; }
+}
